@@ -3,8 +3,8 @@
     padding-top: 50px;
     padding-right: 30px;
     padding-bottom: 50px;
-    padding-left: 80px;
     border-radius: 5%;
+    height: 100%;
    
   }
   
@@ -12,11 +12,13 @@
     margin-left: auto;
     text-align: center;
     font-family: Helvetica;
+    font-size: 100%;
+    font-weight: bold;
     
   }
   
   #image,#img-caption{
-    width: 500px;
+    width: 100%;
     border-radius: 8px;
     display: block;
     margin-left: auto;
@@ -24,18 +26,6 @@
     max-width: 50em;
   }
   
-  #tribute-info{
-    width: 300px;
-    padding: 50px 300px 10px 300px;
-    background-color: #ADB2B2;
-    height: 600px;
-    width: 50%;
-    font-family: monospace;
-    font-size: 19px;
-    text-align: justify;
-    border-radius: 5%;
-
-  }
   
   #tribute-link{
     font-family: monospace;
@@ -52,19 +42,19 @@
   padding: 5px;
   }
 
-  #tribute-info a:hover{
+    a:hover{
     color: white;
-    background-color: red;
+  }
 
+  .info{
+    background-color:rgba(128, 128, 128, 0.527);
+    border-radius:3%;
+    padding: 10% 20% 5% 20%;
   }
 
   #pie_de_pagina{
     text-align: center;
 }
-  
-  
-  
-
 
 
 
